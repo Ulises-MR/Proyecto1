@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!-- documento tipo html -->
+<html lang="en"> <!-- idioma espa;ol -->
+<head> <!-- información sobre el documento -->
+    <meta charset="UTF-8"> <!-- la etiqueta meta sirve para sirve para aportar información sobre el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- titulo de la pagina -->
+</head>
+<body> <!-- cuerpo -->
+   <style> /* se asigna estilo */
+       td { text-align: center;
+    }
+       #izquierda {
+           float: right;
+           
+       }
+    
+       table , th, td {
+  border: 1px solid black; /* se especifica el borde de la tabla*/
+}
+
+   </style> 
+   <div align="center"> <!-- se alinea al centro -->
+   <!-- A continuación se agrega la imagen principal -->
+    <img src="img/ASUSS.jpg" 
+    width="350" height="450"        
+    title="ASUS VivoBook 15.6 FHD Laptop"><!-- titulo -->
+    <img src="img/AsusF570ZD.jpg" 
+    width="350" height="450"        
+    title="ASUS VivoBook 15.6 FHD Laptop">
+  </div> <!-- sirve para la separación de contenido -->
+    <div id="contenedor">
+        <div id="izquierda">
+
+  
+  
+            <table> <!-- creación de una tabla -->
+        <style>
+           tr:nth-child(even) {background-color: #ffffff;}
+        </style>
+          <tr1> 
+            <th>Marca</th> <!-- th define una celda como encabezado de varias celdas en una tabla -->
+            <th>Series</th>
+            <th>Tamaño de Pantalla</th>
+            <th>Sistema Operativo</th>
+          </tr1><!-- define una fila de celdas en una tabla -->
+          <tr>
+            <td>ASUS</td>
+            <td>VivoBook M15</td>
+            <td>15.6 Pulgadas</td>
+            <td>Windows 10 Home</td>
+          </tr>
+           
+        </table> <!-- cierre de la primer tabla -->
+    </div>
+    
+        <table> <!-- creación de la segunda tabla -->
+            <tr>
+                <th>Estilos</th>
+                <th>Precios</th>
+              </tr>
+            <tr>
+            <td>AMD R5 | 8 | 512 | GTX 1050</td>
+            <td>US$ 629.99</td>
+          </tr>
+          <tr>
+            <td>120 Hz | i7-9750H | GTX 1650.</td>
+            <td>US$ 1,129,99</td>
+          </tr>
+
+
+            </table> <!-- cierre de la segunda tabla -->
+
+    </div>
+      
+</body>
+</html> <!-- fin del codigo -->
